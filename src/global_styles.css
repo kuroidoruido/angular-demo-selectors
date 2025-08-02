@@ -1,1 +1,18 @@
 /* Add application styles & imports to this file! */
+
+table {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+
+  tr {
+    td,
+    th {
+      border: 1px solid blue;
+      padding: 0.25rem;
+    }
+  }
+}
+
+input[type="checkbox"][disabled] {
+  cursor: not-allowed;
+}
